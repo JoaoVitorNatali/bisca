@@ -44,7 +44,7 @@ figura.onload = function(){
 	//}
 	
 
-	//ctx.drawImage(initPlay, 0, 0, initPlay.width, initPlay.height, X, Y, LARGURA, alturaSaidaImagens);
+	ctx.drawImage(initPlay, 0, 0, initPlay.width, initPlay.height, X, Y, LARGURA, alturaSaidaImagens);
 	canvas.addEventListener("click", deixacontecer);
 }
 
