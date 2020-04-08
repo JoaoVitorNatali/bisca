@@ -39,7 +39,7 @@ figura.onload = function(){
 	//fundo.onload = function(){
 		ctx.drawImage(fundo, 0, 0, LARGURA, ALTURA);
 		//inityPlay.onload = function(){
-			ctx.drawImage(initPlay, 0, 0, initPlay.width, initPlay.height, X, Y, LARGURA, alturaSaidaImagens);
+			//ctx.drawImage(initPlay, 0, 0, initPlay.width, initPlay.height, X, Y, LARGURA, alturaSaidaImagens);
 		//}
 	//}
 	
