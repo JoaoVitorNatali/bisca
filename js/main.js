@@ -36,14 +36,10 @@ figura.onload = function(){
 	Y = (ALTURA - alturaSaidaImagens)/2;
 	X = 0;
 
-	//fundo.onload = function(){
-		ctx.drawImage(fundo, 0, 0, LARGURA, ALTURA);
-		//inityPlay.onload = function(){
-			//ctx.drawImage(initPlay, 0, 0, initPlay.width, initPlay.height, X, Y, LARGURA, alturaSaidaImagens);
-		//}
-	//}
-	
 
+	ctx.drawImage(fundo, 0, 0, LARGURA, ALTURA);
+	console.log(fundo);
+		
 	ctx.drawImage(initPlay, 0, 0, initPlay.width, initPlay.height, X, Y, LARGURA, alturaSaidaImagens);
 	canvas.addEventListener("click", deixacontecer);
 }
