@@ -25,19 +25,24 @@
 			margin: auto;
 		}
 		footer{
-			text-align: center;
 			font-size: 20px;
-
 			background-color: gray;
 			padding: 10px;
+			position: absolute;
+			min-height: 80px;
+			min-width: 800px;
+		}
 
-		}
-		br{
-			padding: 5px;
-		}
-		#divFoot{
+		.meio{
 			text-align: center;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
 			margin: auto;
+		}
+		.hover:hover{
+			color: #FFF;
 		}
 	</style>
 </head>
@@ -45,10 +50,15 @@
 <body>
 </body>
 
-<footer id="foot">
-	<div id="divFoot">
-		Criador: João Vitor Natali<br>
-		Artes gráficas: Thayssa Monfreides
+<footer id="foot" class="meio">
+	<div>
+		<div class="hover">Criador: João Vitor Natali</div>
+		
+		Artes gráficas:
+			
+		Thayssa Monfreites<br>
+		<a style="font-size: 19px; color: #000" href="https://br.freepik.com/fotos-vetores-gratis/textura">Textura vetor criado por macrovector - br.freepik.com</a>
+		
 	</div>
 </footer>
 </html>
